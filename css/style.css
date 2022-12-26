@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+    img{display: none;}
+}
+
+.header{
+    background-color: black;
+}
+
+form, div{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+h6{
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+}
+
+h2{
+    font-size: 23px;
+    margin-top: 25px;
+}
+
+body {
+    transition: all 0.4s;
+}
+
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: black;
+}
