@@ -18,12 +18,6 @@ const plazo = {
 
 
 
-for (i = 0; i < 10; i++){
-$("h6").fadeOut(1000);
-$("h6").fadeIn(1000);
-}
-
-
 //DESACTIVO RADIO DOLAR CUANDO VALUE ES 2
 function desactivar (){
     let valorRadioUno = document.radioFormUno.radioUno.value;
